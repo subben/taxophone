@@ -42,7 +42,7 @@ namespace Taxophone
                     if (Ikon[i] > Ikon[j])
                     {
                         temp = Ikon[i];
-                        Ikon[i] = Ikon[j];
+                        Ikon[i] = Ikon[j]; // просто печаль
                         Ikon[j] = temp;
                     }
                 }
